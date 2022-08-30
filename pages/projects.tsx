@@ -10,8 +10,8 @@ export default function Projects() {
       >
         <h1 className="text-3xl font-semibold">Projects</h1>
         <p>
-          These are a couple of my selected projects that I think might be
-          valuable to others as well. You might find other projects{" "}
+          These are a couple of selected projects that I think might be valuable
+          to others as well. You might find other projects{" "}
           <a href="https://github.com/mxngls">here</a>.
         </p>
         <ul className="mt-4 flex flex-col items-center justify-center gap-6">
