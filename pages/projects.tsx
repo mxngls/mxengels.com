@@ -14,52 +14,66 @@ export default function Projects() {
           valuable to others as well. You might find other projects{" "}
           <a href="https://github.com/mxngls">here</a>.
         </p>
-        <ul className="mt-4 flex flex-col items-center justify-center">
+        <ul className="mt-4 flex flex-col items-center justify-center gap-6">
           <li id="project">
-            <div className="relative h-32 w-80 md:h-[12rem] md:w-[27rem]">
-              <a
-                href="https://github.com/mxngls/Gmail-Cleaner"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  layout="fill"
+            <a
+              className="relative h-44 w-96 md:h-[12rem] md:w-[27rem]"
+              href="https://github.com/mxngls/Gmail-Cleaner"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <picture>
+                <source
+                  srcSet="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=Gmail-Cleaner"
+                  type="image/webp"
+                />
+                <img
+                  className="object-fill"
                   alt="ex "
                   src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=Gmail-Cleaner"
-                ></Image>
-              </a>
-            </div>
+                />
+              </picture>
+            </a>
           </li>
           <li id="project">
-            <div className="relative h-32 w-80 md:h-[12rem] md:w-[27rem]">
-              {" "}
-              <a
-                href="https://github.com/mxngls/kled-scraper"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  layout="fill"
+            <a
+              className="relative h-44 w-96 md:h-[12rem] md:w-[27rem]"
+              href="https://github.com/mxngls/kled-scraper"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <picture>
+                <source
+                  srcSet="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-scraper"
+                  type="image/webp"
+                />
+                <img
+                  className="object-cover"
                   alt="ex "
                   src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-scraper"
-                ></Image>
-              </a>
-            </div>
+                />
+              </picture>
+            </a>
           </li>
           <li id="project">
-            <div className="relative h-32 w-80 md:h-[12rem] md:w-[27rem]">
-              <a
-                href="https://github.com/mxngls/kled-server"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image
-                  layout="fill"
+            <a
+              className="relative h-44 w-96 md:h-[12rem] md:w-[27rem]"
+              href="https://github.com/mxngls/kled-server"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <picture>
+                <source
+                  srcSet="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-server"
+                  type="image/webp"
+                />
+                <img
+                  className="object-cover"
                   alt="ex "
                   src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-server"
-                ></Image>
-              </a>
-            </div>
+                />
+              </picture>
+            </a>
           </li>
         </ul>
       </section>
