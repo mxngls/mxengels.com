@@ -6,7 +6,7 @@ export default function Projects() {
     <Layout>
       <section
         id="projects"
-        className="mx-7 mt-7 mb-14 flex h-screen flex-col gap-7 font-light leading-6 sm:mx-20 md:mx-48 md:mt-14 lg:mx-64 xl:mx-72"
+        className="mx-4 mt-7 mb-14 flex h-screen flex-col gap-7 font-light leading-6 sm:mx-20 md:mx-48 md:mt-14 lg:mx-64 xl:mx-72"
       >
         <h1 className="text-3xl font-semibold">Projects</h1>
         <p>
