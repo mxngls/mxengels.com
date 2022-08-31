@@ -22,8 +22,8 @@ module.exports = {
         ],
       },
       animation: {
-        shake: "shake linear 3s",
-        scale: "scale linear 3s",
+        shake: "shake linear 1.5s",
+        scale: "scale linear 1.5s",
       },
       keyframes: {
         shake: {
