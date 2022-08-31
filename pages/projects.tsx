@@ -1,7 +1,10 @@
 import Layout from "../components/Layout";
-import Image from "next/image";
+import { LanguageContext } from "../components/LanguageContext";
+
+import { useContext } from "react";
 
 export default function Projects() {
+  const language = useContext(LanguageContext).content;
   return (
     <Layout>
       <section
@@ -9,11 +12,11 @@ export default function Projects() {
         className="mx-4 mt-7 mb-14 flex h-screen flex-col gap-7 font-light leading-6 sm:mx-20 md:mx-48 md:mt-14 lg:mx-64 xl:mx-72"
       >
         <h1 className="text-3xl font-semibold">Projects</h1>
-        <p>
-          These are a couple of selected projects that I think might be valuable
-          to others as well. You might find other projects{" "}
-          <a href="https://github.com/mxngls">here</a>.
-        </p>
+        {language.projects.projects.text.map((p, i) => {
+          return (
+            <p key={`overview-${i}`} dangerouslySetInnerHTML={{ __html: p }} />
+          );
+        })}
         <ul className="mt-4 flex flex-col items-center justify-center gap-6">
           <li id="project">
             <a
@@ -29,7 +32,7 @@ export default function Projects() {
                 />
                 <img
                   className="object-fill"
-                  alt="ex "
+                  alt="Gmail-Cleaner"
                   src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=Gmail-Cleaner"
                 />
               </picture>
@@ -49,7 +52,7 @@ export default function Projects() {
                 />
                 <img
                   className="object-cover"
-                  alt="ex "
+                  alt="kled-scraper"
                   src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-scraper"
                 />
               </picture>
@@ -69,7 +72,7 @@ export default function Projects() {
                 />
                 <img
                   className="object-cover"
-                  alt="ex "
+                  alt="kled-server"
                   src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-server"
                 />
               </picture>
