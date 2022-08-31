@@ -5,7 +5,7 @@
       "text": [
         "I&apos;m <b>Max</b> an independent developer interested in technologies involving the web. If you take a look at my projects you&apos;ll see that I have a keen interest in learning languages and Korean in particular as well.",
         "I&apos;m currently based in Seoul, South Korea. If by any chance you are in Korea I&apos;d love to meet you. I already made some friends here who, before meeting them here, only knew from twitter.",
-        "If for any reason you&apos;d like to contact me the easiest way to reach me is either via <a href=\"mailto:maximilian.e.heonig@mgail.com\">email</a> or <a href=\"https://twitter.com/Mxngls\">Twitter</a>"
+        "If for any reason you&apos;d like to contact me the easiest way to reach me is either via <a href=\"mailto:maximilian.e.heonig@mgail.com\">email</a> or <a href=\"https://twitter.com/Mxngls\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>"
       ]
     },
     "about": {
@@ -20,7 +20,7 @@
     "projects": {
       "title": "Projects",
       "text": [
-        "These are a couple of selected projects that I think might be valuable to others as well. You might find other projects here."
+        "These are a couple of selected projects that I think might be valuable to others as well. You might find other projects <a href=\"https://github.com/mxngls\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>."
       ]
     }
   }

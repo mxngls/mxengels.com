@@ -5,7 +5,7 @@
       "text": [
         "저는 WEB과 관련한 기술에 관심이 매우 많은 개인 개발자 <b>MAX</b>입니다. 제 프로젝트를 보신다면 제가 언어 학습, 특히 한국어 학습에 매우 열정적이라는 사실을 아실 수 있을 것입니다.",
         "저는 현재 서울에 거주 중입니다. 혹시 이걸 보시는 분이 한국에 거주 중이시고 한국어, 또는 WEB 개발 등에 관심이 있으시다면 꼭 만나보고 싶습니다. 저는 이미 한국에서, 트위터에서만 알고 있던 몇몇의 사람들을 직접 만났고, 함께 즐거운 시간을 보낼 수 있었습니다!",
-        "어떤 이유로든 저와 연락을 하고 싶으시다면, <a href=\"mailto:maximilian.e.heonig@mgail.com\">E-Mail</a> 이나 <a href=\"https://twitter.com/Mxngls\">트위터</a> 등을 통해서 연락 바랍니다."
+        "어떤 이유로든 저와 연락을 하고 싶으시다면, <a href=\"mailto:maximilian.e.heonig@mgail.com\">EMAIL</a> 이나 <a href=\"https://twitter.com/Mxngls\" target=\"_blank\" rel=\"noopener noreferrer\">트위터</a> 등을 통해서 연락 바랍니다."
       ]
     },
     "about": {
@@ -20,7 +20,7 @@
     "projects": {
       "title": "Projects",
       "text": [
-        "제가 생각하기에 다른 분들에게도 도움이 될 만한 프로젝트를 하기에 몇 가지 선별하여 놓았습니다. 다른 프로젝트들은 HERE 을 눌러서 확인하실 수 있습니다."
+        "제가 생각하기에 다른 분들에게도 도움이 될 만한 프로젝트를 하기에 몇 가지 선별하여 놓았습니다. 다른 프로젝트들은 <a href=\"https://github.com/mxngls\" target=\"_blank\" rel=\"noopener noreferrer\">HERE</a> 을 눌러서 확인하실 수 있습니다."
       ]
     }
   }
