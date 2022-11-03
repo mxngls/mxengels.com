@@ -61,19 +61,39 @@ export default function Projects() {
           <li id="project">
             <a
               className="relative h-44 w-96 md:h-[12rem] md:w-[27rem]"
-              href="https://github.com/mxngls/kled-server"
+              href="https://github.com/mxngls/kled-web"
               target="_blank"
               rel="noopener noreferrer"
             >
               <picture>
                 <source
-                  srcSet="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-server"
+                  srcSet="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-web"
                   type="image/webp"
                 />
                 <img
                   className="object-cover"
                   alt="kled-server"
-                  src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-server"
+                  src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=kled-web"
+                />
+              </picture>
+            </a>
+          </li>
+          <li id="project">
+            <a
+              className="relative h-44 w-96 md:h-[12rem] md:w-[27rem]"
+              href="https://github.com/mxngls/admin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <picture>
+                <source
+                  srcSet="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=admin"
+                  type="image/webp"
+                />
+                <img
+                  className="object-cover"
+                  alt="kled-server"
+                  src="https://github-readme-stats.vercel.app/api/pin/?username=mxngls&repo=admin"
                 />
               </picture>
             </a>
