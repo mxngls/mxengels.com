@@ -1,1 +1,1 @@
-Draft for a personal webiste. Still under construction.
+Old homepage. Not used anymore.
